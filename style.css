@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  font-weight: bold;
+  box-sizing: border-box;
+  color: #4078C0;
+  word-wrap: break-word;
+}
+
+body {
+  font-family: "Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;
+  font-size: 12pt;
+  word-wrap: break-word;
+  margin-top: 4%;
+  background-image: url("bg.png");
+  background-color: #cccccc;
+  background-size: cover;
+}
+
+#box {
+  margin: auto;
+  min-width: 50%;
+  width: 500px;
+  max-width: 100%;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#logo {
+  display: block;
+  margin: 1.2em auto 2.4em;
+  width: 263px;
+  max-width: 100%;
+}
+
+#contact {
+  float: right;
+}
+
+.gray {
+  color: #aaa;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+p:last-child {
+  margin-bottom: 0px;
+}
+
+ul li {
+  margin: 8px 0;
+}
