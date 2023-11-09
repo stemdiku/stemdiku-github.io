@@ -14,8 +14,10 @@ body {
   font-size: 12pt;
   word-wrap: break-word;
   margin-top: 4%;
-  background-color: #85C1E9;
+  background-image: url('bygning.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #box {
@@ -24,9 +26,46 @@ body {
   width: 500px;
   max-width: 100%;
   padding: 10px;
+  border: 10px solid black;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  background-color: #4078C0;
 }
 
 
+#box2 {
+  margin:auto;
+  min-width: 30%;
+  width: 300px;
+  max-width: 100%;
+  padding: 10px;
+  border: 10px solid black;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  background-color: #4078C0;
+
+}
+
+#kandimg{
+  min-width: 10%;
+  width: 300px;
+  height: auto;
+
+}
+
+
+#box3{
+  margin: auto;
+  min-width: 30%;
+  width: 300px;
+  max-width: 100%;
+  padding: 10px;
+  border: 10px solid black;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  background-color: #4078C0;
+
+}
 
 h1 {
   text-align: center
@@ -56,4 +95,34 @@ b {
 .fixed-logo img {
   width: 200px; 
   height: auto; 
+}
+
+.left {
+  position:relative;
+  left: 5%;
+}
+
+
+.right {
+  position:relative;
+  right: 5%;
+}
+
+.kandidat {
+  display: flex; 
+  align-items: center; 
+  margin: auto;
+  min-width: 100%;
+  width: 500px;
+  max-width: 100%;
+  padding: 10px;
+  border: 2px solid red;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.kandidat img {
+  min-width: 10%;
+  width: 300px;
+  height: auto;
 }
